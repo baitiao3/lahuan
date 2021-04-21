@@ -15,6 +15,7 @@ class BlogController extends Controller
     {
         //
         echo "index";
+        
     }
 
     /**
