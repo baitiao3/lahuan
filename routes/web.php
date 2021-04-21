@@ -151,7 +151,9 @@ use Illuminate\Support\Facades\Route;
 
 //Route::resource("blogs.comments","CommentController")->parameter("blogs","id");
 
-
+Route::get("index/index",function(){
+    return view("index",['id'=>"asd"]);
+});
 
 Route::get("task/form","TaskController@form");
 
